@@ -1,0 +1,22 @@
+body{
+    background: url(../images/layer.png) no-repeat 0px 0px;
+    background-size: cover;
+    min-height: 100vh;
+    background: url(../images/banner2.png) no-repeat 0px 0px;
+    background-size: cover;
+}
+.a-label{
+    display: inline-block;
+    text-decoration:none;
+    border-radius:8px;
+    background: green;
+    margin:5px;
+    padding:10px 25px;
+    text-align: center;
+    color:white;
+
+}
+.a-label:hover{
+    background-color: red;
+
+}

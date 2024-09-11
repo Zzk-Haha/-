@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block title %}多模态呼吸科危重症患者评估系统-首页 {% endblock %}
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/index.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+{% endblock %}
+
+{% block body %}
+
+    <div class="a_lanxin">
+        <a href="{{ url_for('qa.lanxin') }}">蓝心智能问答</a>
+    </div>
+    <div class="a_lanxin">
+        <a href="{{ url_for('qa.xunfei') }}">星火讯飞大模型</a>
+    </div>
+
+
+ <div class="row" style="margin-top: 20px;">
+            <div class="col"></div>
+            <div class="col-10">
+                <ul class="question-ul">
+                    {% for question in questions %}
+                    <li>
+                        <div class="side-question">
+                            <img class="side-question-avatar" src="{{ url_for('static',filename='images/user.jpg') }}" alt="">
+                        </div>
+                        <div class="question-main">
+                            <div class="question-title"><a href="{{ url_for('qa.qa_detail',qa_id=question.id) }}">{{ question.title }}</a></div>
+                            <div class="question-content">{{ question.content }}</div>
+                            <div class="question-detail">
+                                <span class="question-author">{{ question.author.username }}</span>
+                                <span class="question-time">{{ question.create_time }}</span>
+                            </div>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col"></div>
+        </div>
+{% endblock %}
+

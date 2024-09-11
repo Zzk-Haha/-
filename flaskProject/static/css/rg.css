@@ -1,0 +1,82 @@
+/* rg.css */
+
+/* 基础样式 */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* 白色背景 */
+}
+
+/* 标题样式 */
+.heading-style {
+    font-size: 32px; /* 标题字体大小 */
+    font-weight: bold; /* 标题字体粗细 */
+    color: #333; /* 标题字体颜色 */
+    text-align: center; /* 标题文本对齐方式 */
+    margin-top: 50px; /* 标题上边距 */
+    margin-bottom: 20px; /* 标题下边距 */
+}
+
+/* 功能列表样式 */
+.feature-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature-list li {
+    font-size: 18px;
+    background-color: #f4f4f5; /* 浅灰色背景 */
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(1, 0, 0, 0.3); /* 阴影效果 */
+    margin-bottom: 20px;
+    min-width: 200px;
+    text-align: center;
+}
+
+/* h2 产品功能样式 */
+.product-feature h2 {
+    font-size: 20px; /* h2 字体大小 */
+    font-weight: bold; /* h2 字体粗细 */
+    color: #333; /* h2 字体颜色 */
+    background-color: #e8e8e8; /* 浅灰色背景 */
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+    margin-bottom: 20px;
+    display: block; /* 改为块级元素 */
+    width: 10%; /* 宽度设置为10%，以填充其父元素的宽度 */
+    text-align: center; /* 改为左对齐 */
+}
+
+.product-feature img {
+    float: right; /* 将图片放在文字的右边 */
+    vertical-align: middle; /* 使图片与文字等高 */
+    margin-left: 10px; /* 添加一些外边距，以便图片与文字之间有一些空间 */
+}
+
+/* 链接样式 */
+.back-to-home {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #5cb85c; /* 绿色背景 */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-home:hover {
+    background-color: #4cae4c; /* 浅绿色背景 */
+}
+.tite{
+    font-weight: bold;
+}

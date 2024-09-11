@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %} 多模态呼吸科危重症患者评估系统-首页 {% endblock %}
+
+{% block body %}
+    <link rel="stylesheet" href="{{ url_for("static",filename='css/rg.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/detail.css') }}">
+<h1 class="heading-style" style="text-align: center;">基于多模态的呼吸科危重症患者评估系统</h1>
+
+    <div class="product-feature">
+        <h2>产品功能:</h2>
+    </div>
+<ul class="feature-list">
+
+    <li><span class="tite">先进的2.5D U-net技术：</span>精准患者CT影像分割解析</li>
+    <li><span class="tite">患者互动社区：</span>促进交流与互助的医疗社交平台</li>
+    <li><span class="tite">个性化CT影像建模：</span>为每位患者提供定制化医疗洞察</li>
+    <li><span class="tite">蓝心大模型驱动的病史研究：</span>深入挖掘患者历史数据，助力精准医疗</li>
+    <li><span class="tite">智能问答系统：</span>依托蓝心大模型，实现即时医疗信息查询与解答</li>
+    <li><span class="tite">智能医疗建议引擎：</span>基于蓝心大模型，提供个性化和数据驱动的医疗建议</li>
+</ul>
+
+{% endblock %}

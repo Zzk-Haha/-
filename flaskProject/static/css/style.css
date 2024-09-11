@@ -1,0 +1,118 @@
+.modern-title {
+    font-family: 'Roboto', sans-serif; /* 选择一个现代的字体 */
+    font-size: 35px; /* 调整字体大小 */
+    color: saddlebrown; /* 调整字体颜色 */
+    margin-bottom: 20px; /* 添加一些空白 */
+}
+
+.btn-primary {
+    background-color: #5cb85c; /* 调整按钮背景颜色 */
+    border-color: #4cae4c; /* 调整按钮边框颜色 */
+    color: white; /* 调整按钮文字颜色 */
+    padding: 10px 20px; /* 调整按钮内边距 */
+    font-size: 16px; /* 调整按钮文字大小 */
+    border-radius: 5px; /* 添加圆角 */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* 添加阴影效果 */
+    cursor: pointer; /* 调整鼠标样式 */
+}
+
+.btn-lanxin{
+    font-family: 'Roboto', sans-serif; /* 选择一个现代的字体 */
+    font-size: 15px; /* 调整字体大小 */
+    color: wheat; /* 调整字体颜色 */
+    /*margin-bottom: 10px; !* 添加一些空白 *!*/
+    background-color: cornflowerblue;
+}
+
+.btn-primary:hover {
+    background-color: coral; /* 鼠标悬停时的背景颜色 */
+    border-color: red; /* 鼠标悬停时的边框颜色 */
+}
+
+/* style.css 文件中的样式 */
+
+.logout-link {
+    font-family: 'Arial', sans-serif; /* 选择一个特色字体 */
+    color: gray; /* 设置特色颜色 */
+    text-decoration: none; /* 移除下划线 */
+}
+/* question.css 文件中的样式 */
+
+.search-form {
+    background-color: #f4f4f4; /* 设置背景颜色 */
+    padding: 10px; /* 添加内边距 */
+    border-radius: 5px; /* 添加圆角 */
+}
+
+.search-form .form-control {
+    border-color: #a6a6a6; /* 设置输入框边框颜色 */
+}
+
+.search-form .btn-outline-success {
+    background-color: #007bff; /* 设置按钮背景颜色 */
+    border-color: #0056b3; /* 设置按钮边框颜色 */
+    color: white; /* 设置按钮文字颜色 */
+}
+
+.search-form .btn-outline-success:hover {
+    background-color: cadetblue; /* 鼠标悬停时的背景颜色 */
+    border-color:  #004085; /* 鼠标悬停时的边框颜色 */
+}
+/* styles.css 文件中的样式 */
+
+.navbar-brand {
+    font-family: 'Arial', sans-serif; /* 选择一个特色字体 */
+    font-size: 20px; /* 调整字体大小 */
+    color: darkgrey; /* 设置特色颜色 */
+    text-decoration: none; /* 移除下划线 */
+}
+.modern-titles {
+    font-family: 'Roboto', sans-serif; /* 选择一个现代的字体 */
+    font-size: 35px; /* 调整字体大小 */
+    color: black; /* 调整字体颜色 */
+    margin-bottom: 20px; /* 添加一些空白 */
+}
+/* styles.css 文件中的样式 */
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px; /* 添加一些空白 */
+    height: 50vh; /* 或者设置一个固定的高度 */
+}
+
+/* 确保图片具有固定宽度 */
+.image-container img {
+    width: 50%; /* 或者根据您的需要调整宽度 */
+}
+/* 在 styles.css 或类似的 CSS 文件中添加以下样式 */
+
+.right-aligned {
+    text-align: right;
+    
+}
+.a_lanxin{
+     font-family: 'Arial', sans-serif; /* 使用Arial字体 */
+    font-size: 24px; /* 设置字体大小 */
+    font-style: italic; /* 设置斜体 */
+    font-weight: bold; /* 设置粗体 */
+    color: #333; /* 设置文本颜色 */
+    text-decoration: underline; /* 添加下划线 */
+    text-transform: uppercase; /* 转换为大写 */
+    text-align: center; /* 设置文本居中对齐 */
+    line-height: 1.6; /* 设置行高 */
+    letter-spacing: 2px; /* 设置字母间距 */
+    word-spacing: 4px; /* 设置单词间距 */
+    text-indent: 50px; /* 设置首行缩进 */
+    background-color: #f0f0f0; /* 设置背景颜色 */
+    border: 1px solid #ddd; /* 添加边框 */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+    transition: all 0.3s ease; /* 添加过渡效果 */
+}
+.a_lanxin:hover{
+     color: #009688; /* 改变文本颜色 */
+    text-decoration: none; /* 移除下划线 */
+    transform: scale(1.1); /* 放大文本 */
+}
+

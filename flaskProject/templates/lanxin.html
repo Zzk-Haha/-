@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>蓝心大模型智能问答</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename="css/lanxin.css") }}">
+</head>
+<body>
+
+ <div class="container">
+     <a href="/" class="back-to-home">回到首页</a>
+     <h1>蓝心问答平台</h1>
+    <div class="subtitle">欢迎使用我们的问答服务</div>
+ <!-- 创建一个表单 -->
+    <form id="myForm" class="input-container">
+        <!-- 文本输入框 -->
+        <label for="textInput">请输入您的问题或需求：</label>
+        <input type="text" id="textInput" name="textInput" required>
+        <!-- 提交按钮 -->
+        <input type="submit" value="提交">
+    </form>
+      <!-- 显示结果的容器 -->
+    <div class="result-container" id="result-container">
+        <div id="result"></div>
+    </div>
+
+</div>
+
+
+
+    <!-- 引入JavaScript文件 -->
+    <script src="{{ url_for('static',filename='js/lanxin.js') }}"></script>
+
+
+</body>
+</html>
